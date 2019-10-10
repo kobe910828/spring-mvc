@@ -19,7 +19,7 @@ public class TestController {
     }
 
     @RequestMapping("/query")
-    public void query(String name, String age){
+    public void query(String name, Integer age){
 
         testService.query(name, age);
     }

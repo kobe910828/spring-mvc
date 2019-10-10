@@ -12,7 +12,7 @@ public class TestService implements ITestService {
     }
 
     @Override
-    public void query(String name, String age) {
+    public void query(String name, Integer age) {
         System.out.println(name + "的年龄是" + age);
     }
 }

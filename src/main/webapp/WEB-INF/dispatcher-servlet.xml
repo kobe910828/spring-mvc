@@ -7,7 +7,7 @@
     <!--此文件负责整个mvc中的配置-->
 
     <!--启用spring的一些annotation -->
-    <context:annotation-config/>
+<!--    <context:annotation-config/>-->
 
     <!-- 配置注解驱动 可以将request参数与绑定到controller参数上 -->
     <mvc:annotation-driven/>
